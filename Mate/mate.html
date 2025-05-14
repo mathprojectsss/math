@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RetoMate</title>
+
+  <link rel="stylesheet" href="diseño.css">
+  <link rel="stylesheet" href="cssinicio.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour+Convergence&family=Spicy+Rice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header> <img class="mate" src="matematicas.png"> 
+    <h1>Retos Matemáticos</h1>
+    <p id="e"> Reto Matemático Diario</p>
+    <img class="mat" src="matematica.png"> 
+  </header>
+
+<nav>
+    <ul class="menudez">
+
+		 <li> <a href="inicio.html">Inicio</a></li>
+
+        <li> <a href="mate.html">Retos</a> </li>
+
+  </ul>
+
+
+  <div id="pantalla-inicial" style="text-align: center; padding: 2rem;">
+
+    <h2>¿Estás listo para comenzar el reto?</h2>
+
+    <button onclick="iniciarReto()">Comenzar</button>
+  </div>
+
+  <main style="display: none;" id="contenido-reto">
+
+    <h2> <span id="titulo-reto">Reto del Día</span></h2>
+
+    <p id="pregunta">Un número más el doble de su valor es igual a 36. ¿Cuál es el número?</p>
+
+    <input id="respuesta" type="text" placeholder="Escribe tu respuesta aquí">
+
+    <button onclick="verificarRespuesta()">Enviar respuesta</button>
+
+    <button id="btn-explicacion" onclick="mostrarExplicacion()" disabled>Ver explicación</button>
+
+    <button onclick="retoAleatorio()"> Reto aleatorio</button>
+
+    <div id="respuesta-msg"></div>
+  
+    <div id="pista" style="display:none; margin-top:1rem; font-style: italic; color: #555;"></div>
+
+    <div id="explicacion" style="display:none; margin-top:1rem;"></div>
+
+    <div id="temporizador" style="margin-top:60px; font-weight:bold; color:#c62828;"></div>
+
+    <div id="nuevo-reto" class="nuevo-reto" style="display: none;">
+
+      <p id="eh">¡Desbloqueaste un reto extra! </p>
+
+      <button onclick="cargarReto(2)">Probar reto extra</button>
+    </div>
+    
+  </main>
+
+  <script src="jv.js"></script>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <img class="matem" src="matematic.png"> 
+  
+</body>
+</html>

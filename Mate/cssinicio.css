@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 45px;
+    color: #0a3b6b;
+    font-family: "Anton SC", serif;
+  }
+
+  h2 {
+    font-size: px;
+    color: #1162b3;
+    font-family: "Anton SC", serif;
+  }
+
+  p {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 26px;
+  margin: -29px 8px -9px;
+  padding: 10px;
+
+}
+
+#e {
+      font-family: "Acme", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 26px;
+    margin: -29px 8px -9px;
+    padding: 10px;
+  
+  }
+
+  .btn {
+    background-color: #43a047;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 2rem;
+  }
+
+  header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+
+  }
+  main {
+    padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 0.7rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+
+  #respuesta-msg {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+
+  #temporizador {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #E57373;
+  }
+  
+  .nuevo-reto {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #ffeb3b;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+.menudez {
+
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: blue;
+}
+
+.menudez > li {
+   
+    position: relative;
+    display: inline-block;
+    border-radius: 10px ;
+    border: 2px solid #000000;
+}
+
+.menudez a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: #4c4b97;
+    font-family: "Spicy Rice", serif;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: 20px;
+    
+ }
+
+ .contenedor {
+
+    display: flex;
+    position: 100px;
+    align-items: center;
+}
+
+ .ex {
+     max-width: 100%;
+     height: 500px; 
+     margin: -53px -89px -483px;
+     float: left;
+}
+
+.mate {
+     max-width: 100%;
+     height: 100px; 
+     margin: 25px 438px -480px;
+     float: left;
+}
+
+.mat {
+     max-width: 100%;
+     height: 100px; 
+     margin: -117px 438px -480px;
+     float: right;
+}
+
+.matem {
+     max-width: 100%;
+     height: 200px; 
+     margin: -164px 27px -480px;
+     float: right;
+}
+
+h3 {
+    font-family: "Acme", sans-serif;
+     color: rgb(53, 52, 52);
+     font-weight: 500;
+     font-size: 30px;
+     margin: -31px 253px 17px;
+     padding: 10px;
+     background-color: white;
+     display: inline-block;
+     padding: 15px;
+     border-radius: 40px;
+}
+
+#eh {
+    font-family: "Acme", sans-serif;
+     color: red;
+     font-weight: 500;
+     font-size: 30px;
+     margin: -23px 220px -15px;
+     padding: 10px;
+     display: inline-block;
+     padding: 15px;
+}
+ .roja {
+  color: red;
+}
+
+#pantalla-inicial {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fffefe;
+  border-radius: 15px;
+  width: 80%;
+  margin: 4px 119px -8px;
+}
